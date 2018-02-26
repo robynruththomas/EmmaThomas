@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    background-color: lightgrey!important;
+}
+
+#loginContent{
+
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 44px;
+    padding-bottom: 44px;
+    background-color: white;
+    position: absolute;
+    top: 10rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50rem;
+    margin-bottom: 45rem;
+    margin-top: 50px;
+}
+
+#signIn{
+    color: #3594cd;
+    cursor: pointer;
+    border: 1px solid #3594cd;
+    font-size: 14px;
+    border-radius: 20px;
+    padding: 0.5em 1.5em;
+    display: inline-block;
+    text-align: center;
+}
+
+#forgotPwrd{
+    margin: 30px;
+    letter-spacing: 2px;
+}
+
+.btn-lg {
+    line-height: 2.333333!important;
+}
+.lbl {
+    margin-bottom: 18px;
+    margin-top: 13px;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+input:required{
+    color: red;
+}
+.row{
+    background-color: white;
+}
+
+.loginCtrl .form-control {
+    border: none;
+    border-bottom: 1px solid lightgrey;
+    box-shadow: none ;
+    border-radius: 1px ;
+    letter-spacing: 2px ;
+}
+
+#loginContent .row h5 {
+    color: #767676;
+}
+
+#regButton{
+    margin-top: 50px;
+}
+
+.field-icon {
+    float: right;
+    margin-left: -25px;
+    margin-top: -25px;
+    position: relative;
+    z-index: 2;
+}
+
+.container{
+    padding-top:50px;
+    margin: auto;
+}

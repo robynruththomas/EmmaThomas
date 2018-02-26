@@ -1,0 +1,70 @@
+<% include partials/header %>
+<!--CONTENT-->
+<div class="p">
+    <div class="container" id="contactContainer">
+        <div class="row" id="contactRow">
+            <div id="contactContent" class="col-xs-12 1 col-sm-12 col-sm-offset-1    col-md-12 col-md-offset-0">
+                <div class="col-xs-12 1 col-sm-6 col-sm-offset-0   col-md-5 col-md-offset-0">
+                    <form class="form-horizontal" action="" method="post">
+                        <h3>Contact Me</h3>
+                        <fieldset>
+                            <!-- Name input-->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input id="name" name="name" type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <!-- Email input-->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <input id="email" name="email" type="text" placeholder="Email" class="form-control">
+                                </div>
+                            </div>
+
+                            <!-- Message body -->
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Message"
+                                              rows="5"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <div class="col-md-12">
+                                    <button type="submit" class="btn btn-primary btn-lg" id="contactBtn">Submit</button>
+                                </div>
+                            </div>
+                        </fieldset>
+
+                    </form>
+                </div>
+                <div id="map" class="col-xs-12 1 col-sm-6 col-sm-offset-1col-md-5 col-md-offset-1"></div>
+            </div>
+        </div>
+        <!--&lt;!&ndash; Form actions &ndash;&gt;-->
+        <!--<div class="col-xs-12 col-sm-8 col-sm-offset-1 col-md-4 col-md-offset-1">-->
+        <!--</div>-->
+    </div>
+</div>
+
+<script>
+    function initMap() {
+        var options = {
+            zoom: 15,
+            center: {lat: -34.006343, lng: 25.675840}
+        }
+        var map = new google.maps.Map(document.getElementById("map"), options);
+        //marker
+        var marker = new google.maps.Marker({
+            position: {lat: -34.006343, lng: 25.675840},
+            map: map
+        });
+
+
+    }
+</script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbtomB8xxxMYJvn5Xe8qCVNiodT6XIIKE&callback=initMap">
+</script>
+</div>
+<% include partials/footer %>

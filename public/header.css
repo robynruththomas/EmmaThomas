@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #FFFFFF;
+}
+.navbar-default {
+    border: none;
+    font-family: 'Questrial', sans-serif;
+    padding: 10px 0;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.navbar-default .navbar-nav>li>a:hover {
+    color: #333;
+    background-color: transparent;
+    color: #000;
+    background-color: transparent;   
+}
+
+.navbar-brand {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+#signInBtn:hover {
+    -webkit-animation: bounce 0.75s;    
+    -webkit-box-shadow: 0 3px 10px rgba(0,0,0,.2);
+    box-shadow: 0 3px 10px rgba(0,0,0,.2);
+}
+@-webkit-keyframes bounce {
+        0% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+  
+  30%{
+    transform: scale(1,0.8) translate(0px,5px); 
+  }
+
+  75%{
+      transform: scale(1,1.1) translate(0px, -10px);
+  }
+  
+ 100% {
+    transform: scale(1,1) translate(0px, 0px);
+  }
+}
+

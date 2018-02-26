@@ -1,0 +1,25 @@
+
+body {
+    background-size: cover;   
+    height:100%;
+    padding-top: 70px;
+    font-family: "PT Serif";
+}
+
+a{
+    text-decoration: none;
+}
+.no-bullet{
+    margin-left: 0;
+    list-style: none;
+}
+.container {
+    text-align: center;
+}
+
+
+.logo{
+    color:#FFF;
+    font-weight:800;
+    font-size:30px;
+}

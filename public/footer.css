@@ -1,0 +1,54 @@
+
+/*CONTACT,ADDRESS,HOURS,SOCIAL*/
+.contact,.address , .hours, .social{
+    list-style: none;
+    margin-bottom: 0;
+    -webkit-padding-start: 0;
+}
+/*Spans*/
+.contact span, .address span ,.hours span , .social span {
+    color: #4d4747;
+    font-weight: 800;
+    padding-top:2px;
+    padding-bottom:2px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+/*paragraphs in links*/
+.address li p, .contact li p , .hours li p {
+    color:#675f5f;
+    letter-spacing: 0;
+    text-decoration:none;
+    font-size:8px;
+    line-height: 2rem;
+}
+.address li p, .contact li p, .hours li p {
+    font-size:14px;
+    color: #786f6f;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+/*SOCIAL MEDIA */
+/*=============================================*/
+/*Overall social media*/
+.social-links a {
+    color: #bbb;
+    margin-right: 1rem;
+    line-height: 5;
+    float: left;
+}
+/*Social media imgs*/
+.fa {
+    color: #9c9c9c;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.shiftPadding {
+    margin-left: 12% !important;
+}
