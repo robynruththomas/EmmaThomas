@@ -1,0 +1,11 @@
+
+
+
+/*Content of the Login/Register Header*/
+#loginRegHeaderContent{
+    height: 8rem
+}
+/*class for the font awesome general styling */
+.headerInfo {
+    height: inherit;
+}

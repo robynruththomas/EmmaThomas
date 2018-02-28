@@ -1,26 +1,50 @@
 html, body, #loginContainer{
     margin: 0;
     height: 100%;
+    width: 100%;
     background-color: lightgrey!important;
 }
 #loginContainer {
     background-image: url("login.jpg");
+    background-size: cover;
+
+}
+#outerContainer {
+    background-color: #FFFFFF;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50rem;
+    height: 50rem;
+    border-radius: 10px;
 }
 #loginContent{
-
-    padding-right: 50px;
-    padding-left: 50px;
-    padding-top: 44px;
-    padding-bottom: 44px;
-    background-color: white;
     position: absolute;
-    top: 10rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 3rem;
+    top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    height: 50rem;
-    margin-bottom: 45rem;
-    margin-top: 50px;
+    margin: auto !important;
+    /*padding-right: 50px;*/
+    /*padding-left: 50px;*/
+    /*padding-top: 44px;*/
+    /*padding-bottom: 44px;*/
+    /*background-color: white;*/
+    /*position: absolute;*/
+    /*top: 10rem;*/
+    /*bottom: 0;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*height: 50rem;*/
+    /*margin-bottom: 45rem;*/
+    /*margin-top: 50px;*/
 }
 
 #signIn{
@@ -43,18 +67,23 @@ html, body, #loginContainer{
     line-height: 2.333333!important;
 }
 .lbl {
-    margin-bottom: 18px;
-    margin-top: 13px;
+    margin-bottom: 0;
+    margin-top: 30px;
     font-weight: 200;
     letter-spacing: 2px;
 }
-input:required{
-    color: red;
-}
+/*input:required{*/
+    /*color: white;*/
+/*}*/
 .row{
     background-color: white;
+    margin: 0!important;
 }
-
+.loginCtrl .form-control:focus {
+    border-bottom: 1px solid #675f5f;
+    outline: 0;
+    box-shadow: none;
+}
 .loginCtrl .form-control {
     border: none;
     border-bottom: 1px solid lightgrey;
