@@ -4,9 +4,12 @@ html, body, #loginContainer{
     width: 100%;
     background-color: lightgrey!important;
 }
+
+/*background Image for Login*/
 #loginContainer {
     background-image: url("login.jpg");
     background-size: cover;
+    background-position: top;
 
 }
 #outerContainer {

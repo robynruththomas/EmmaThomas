@@ -2,10 +2,39 @@
 
 
 /*Content of the Login/Register Header*/
-#loginRegHeaderContent{
-    height: 8rem
+#loginRegHeaderIcons{
+    height: 8rem;
+    background-color: transparent;
 }
 /*class for the font awesome general styling */
 .headerInfo {
     height: inherit;
+    /*border: 1px solid red;*/
+}
+ /*Editing of th icons*/
+.headerIcon{
+    color: #FFFFFF;
+    text-align: center;
+}
+.row {
+    background-color: transparent;
+}
+
+.big {
+    transform: scale(5,5);
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+}
+
+#loginRegHeaderText {
+    text-align: center;
+    font-family: 'Questrial', sans-serif;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    font-size: 25px;
 }
